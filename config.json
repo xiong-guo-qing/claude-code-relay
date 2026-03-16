@@ -1,0 +1,28 @@
+{
+  "server": {
+    "host": "127.0.0.1",
+    "port": 8318
+  },
+  "auth": {
+    "api_key": "relay-local-dev"
+  },
+  "provider": {
+    "base_url": "http://127.0.0.1:8090/v1",
+    "api_key": "YOUR_PROVIDER_API_KEY_HERE",
+    "chat_completions_path": "/chat/completions",
+    "timeout_seconds": 300
+  },
+  "model_map": {
+    "claude-sonnet-4-5": "gpt-5.4",
+    "claude-3-7-sonnet": "gpt-5.4",
+    "claude-opus-4-1": "gpt-5.4",
+    "claude-opus-4": "gpt-5.4",
+    "claude-3-5-sonnet": "gpt-5.4",
+    "claude-3-5-haiku": "gpt-5.4",
+    "default": "gpt-5.4",
+    "claude-sonnet-4-6": "gpt-5.4",
+    "claude-sonnet-4_6": "gpt-5.4"
+  },
+  "default_target_model": "gpt-5.4",
+  "protocol_debug": true
+}

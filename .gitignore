@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+server.log
+*.log
+config.local.json
+
+server.py.bak.*
+server.py.before_revert_*
