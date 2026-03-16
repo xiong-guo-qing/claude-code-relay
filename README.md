@@ -101,7 +101,7 @@ claude-code-relay/
 {
   "server": {
     "host": "127.0.0.1",
-    "port": 8318
+    "port": 8080
   },
   "auth": {
     "api_key": "relay-local-dev"
@@ -140,7 +140,7 @@ python3 server.py
 默认监听：
 
 ```bash
-127.0.0.1:8318
+127.0.0.1:8080
 ```
 
 ### 方式二：使用 systemd user service
@@ -157,7 +157,7 @@ systemctl --user status claude-code-relay.service
 ## 7. 健康检查
 
 ```bash
-curl http://127.0.0.1:8318/health
+curl http://127.0.0.1:8080/health
 ```
 
 正常返回示例：
